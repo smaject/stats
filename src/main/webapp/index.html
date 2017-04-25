@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Server status</title>
+</head>
+<body>
+<h1>Application server status</h1>
+<section>
+    <h2>Health checks</h2>
+    <article>
+        <a href="./api/health/ping">Ping</a>
+    </article>
+    <article>
+        <a href="./api/health/echo/hello">Echo 'hello'</a>
+    </article>
+    <article>
+        <a href="./api/health/system-properties">List System Properties</a>
+    </article>
+    <article>
+        <a href="./api/health/env-variables">List Environment Variables</a>
+    </article>
+    <article>
+        <a href="./api/health/jndi/java:global">List java:global</a>
+    </article>
+    <article>
+        <a href="./api/health/jndi/java:">List java:</a>
+    </article>
+</section>
+<section>
+    <h2>Server statistics</h2>
+    <article>
+        <a href="./api/stats/start-time">Server Start- / Boot-Time</a>
+    </article>
+    <article>
+        <a href="./api/stats/up-time">Server Up-Time</a>
+    </article>
+    <article>
+        <a href="./api/stats/memory-usage">Current memory usage</a>
+    </article>
+    <article>
+        <a href="./api/stats/os-info">Operating System Information</a>
+    </article>
+    <article>
+        <a href="./api/stats/vm-info">Virtual Machine Information</a>
+    </article>
+    <article>
+        <a href="./api/stats/host-info">Host Information</a>
+    </article>
+</section>
+
+</body>
+</html>
